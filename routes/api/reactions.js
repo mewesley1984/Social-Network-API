@@ -21,4 +21,15 @@ router.route("/").post(async (req, res) => {
   }
 });
 
+// DELETE 
+router.route("/:id").delete(async (req, res) => {
+  try {
+    const deleted = await Reaction.findOneAndDelete({ _id: req.params.id });
+    res.json(deleted);
+  } catch (err) {
+    console.log(err);
+    return res.status(500).json(err);
+  }
+});
+
 module.exports = router;

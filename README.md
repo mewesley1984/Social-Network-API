@@ -28,5 +28,5 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 The following video shows examples of the application's API routes being tested in Insomnia.
 
 
-![Screencastify Demo](./https://watch.screencastify.com/v/nZILlozzGvwm5tFQ5SZw)
+![Screencastify Demo](https://watch.screencastify.com/v/nZILlozzGvwm5tFQ5SZw)
 
